@@ -1,5 +1,5 @@
 const BASE_URL = 'https://pixabay.com';
-const API_KEY = '34805987-f2b531f3f349672084b6a5db6';
+const API_KEY = '36333021-ab163d7e5e32d7f76422b6844';
 
 export default class FetchPicture {
   constructor() {
@@ -41,6 +41,6 @@ export default class FetchPicture {
   set query(newQuery) {
     this.searchQuery = newQuery;
   }
- 
+
 }
 
